@@ -27,10 +27,10 @@ function Counter({count}) {
                     <h3 data-testid="count" >{counter}</h3>
                     </div>
                 <div className='flex flex-row justify-center gap-10'>
-                    <button className='px-5 py-2 bg-sky-600 hover:bg-sky-500 text-blue-100 rounded-lg' onClick={incrementCounter} >Increment</button>
-                    <button className='px-5 py-2 bg-sky-600 hover:bg-sky-500 text-blue-100 rounded-lg' onClick={decrementCounter} >Decrement</button>
-                    <button className='px-5 py-2 bg-sky-600 hover:bg-sky-500 text-blue-100 rounded-lg' onClick={resetCounter} >Reset</button>
-                    <button className='px-5 py-2 bg-sky-600 hover:bg-sky-500 text-blue-100 rounded-lg' onClick={changeSign} >Switch Sign</button>
+                    <button className='px-5 py-2 bg-sky-600 hover:bg-sky-500 active:bg-sky-700 text-blue-100 rounded-lg' onClick={incrementCounter} >Increment</button>
+                    <button className='px-5 py-2 bg-sky-600 hover:bg-sky-500 active:bg-sky-700 text-blue-100 rounded-lg' onClick={decrementCounter} >Decrement</button>
+                    <button className='px-5 py-2 bg-sky-600 hover:bg-sky-500 active:bg-sky-700 text-blue-100 rounded-lg' onClick={resetCounter} >Reset</button>
+                    <button className='px-5 py-2 bg-sky-600 hover:bg-sky-500 active:bg-sky-700 text-blue-100 rounded-lg' onClick={changeSign} >Switch Sign</button>
                 </div>
             </div>
         </Fragment>
