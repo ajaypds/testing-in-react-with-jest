@@ -7,7 +7,7 @@ function App() {
   return (
     <Fragment>
       <div className='w-screen h-screen bg-black flex flex-row justify-center' >
-          <Counter />
+          <Counter count={0} />
       </div>
     </Fragment>
   );
